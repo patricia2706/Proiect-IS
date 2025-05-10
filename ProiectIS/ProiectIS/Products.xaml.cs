@@ -20,17 +20,11 @@ namespace ProiectIS
     /// </summary>
     public partial class Products : Window
     {
-        AppDbContext _db = new AppDbContext();
-        public ObservableCollection<Product> Prod { get; set; }
+
         public Products()
         {
             InitializeComponent();
-            using (var _db = new AppDbContext())
-            {
-                Prod = new ObservableCollection<Product>(_db.Products.ToList());
-            }
-
-            prodItemsControl.ItemsSource = Prod;
+            
 
             
         }
