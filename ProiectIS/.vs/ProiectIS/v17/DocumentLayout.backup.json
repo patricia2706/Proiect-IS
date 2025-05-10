@@ -3,6 +3,42 @@
   "WorkspaceRootPath": "D:\\Desktop\\facultate\\is\\Proiect-IS\\ProiectIS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{04973BBA-B7AE-4867-B881-D58BD66862C3}|ProiectIS\\ProiectIS.csproj|d:\\desktop\\facultate\\is\\proiect-is\\proiectis\\proiectis\\products.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04973BBA-B7AE-4867-B881-D58BD66862C3}|ProiectIS\\ProiectIS.csproj|solutionrelative:proiectis\\products.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04973BBA-B7AE-4867-B881-D58BD66862C3}|ProiectIS\\ProiectIS.csproj|d:\\desktop\\facultate\\is\\proiect-is\\proiectis\\proiectis\\products.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{04973BBA-B7AE-4867-B881-D58BD66862C3}|ProiectIS\\ProiectIS.csproj|solutionrelative:proiectis\\products.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04973BBA-B7AE-4867-B881-D58BD66862C3}|ProiectIS\\ProiectIS.csproj|d:\\desktop\\facultate\\is\\proiect-is\\proiectis\\proiectis\\profile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{04973BBA-B7AE-4867-B881-D58BD66862C3}|ProiectIS\\ProiectIS.csproj|solutionrelative:proiectis\\profile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04973BBA-B7AE-4867-B881-D58BD66862C3}|ProiectIS\\ProiectIS.csproj|d:\\desktop\\facultate\\is\\proiect-is\\proiectis\\proiectis\\dashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04973BBA-B7AE-4867-B881-D58BD66862C3}|ProiectIS\\ProiectIS.csproj|solutionrelative:proiectis\\dashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04973BBA-B7AE-4867-B881-D58BD66862C3}|ProiectIS\\ProiectIS.csproj|d:\\desktop\\facultate\\is\\proiect-is\\proiectis\\proiectis\\dashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{04973BBA-B7AE-4867-B881-D58BD66862C3}|ProiectIS\\ProiectIS.csproj|solutionrelative:proiectis\\dashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04973BBA-B7AE-4867-B881-D58BD66862C3}|ProiectIS\\ProiectIS.csproj|d:\\desktop\\facultate\\is\\proiect-is\\proiectis\\proiectis\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04973BBA-B7AE-4867-B881-D58BD66862C3}|ProiectIS\\ProiectIS.csproj|solutionrelative:proiectis\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04973BBA-B7AE-4867-B881-D58BD66862C3}|ProiectIS\\ProiectIS.csproj|d:\\desktop\\facultate\\is\\proiect-is\\proiectis\\proiectis\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04973BBA-B7AE-4867-B881-D58BD66862C3}|ProiectIS\\ProiectIS.csproj|solutionrelative:proiectis\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04973BBA-B7AE-4867-B881-D58BD66862C3}|ProiectIS\\ProiectIS.csproj|d:\\desktop\\facultate\\is\\proiect-is\\proiectis\\proiectis\\productdetails.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{04973BBA-B7AE-4867-B881-D58BD66862C3}|ProiectIS\\ProiectIS.csproj|solutionrelative:proiectis\\productdetails.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04973BBA-B7AE-4867-B881-D58BD66862C3}|ProiectIS\\ProiectIS.csproj|d:\\desktop\\facultate\\is\\proiect-is\\proiectis\\proiectis\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04973BBA-B7AE-4867-B881-D58BD66862C3}|ProiectIS\\ProiectIS.csproj|solutionrelative:proiectis\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{04973BBA-B7AE-4867-B881-D58BD66862C3}|ProiectIS\\ProiectIS.csproj|d:\\desktop\\facultate\\is\\proiect-is\\proiectis\\proiectis\\details.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{04973BBA-B7AE-4867-B881-D58BD66862C3}|ProiectIS\\ProiectIS.csproj|solutionrelative:proiectis\\details.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,16 +47,8 @@
       "RelativeMoniker": "D:0:0:{04973BBA-B7AE-4867-B881-D58BD66862C3}|ProiectIS\\ProiectIS.csproj|solutionrelative:proiectis\\details.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04973BBA-B7AE-4867-B881-D58BD66862C3}|ProiectIS\\ProiectIS.csproj|d:\\desktop\\facultate\\is\\proiect-is\\proiectis\\proiectis\\products.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{04973BBA-B7AE-4867-B881-D58BD66862C3}|ProiectIS\\ProiectIS.csproj|solutionrelative:proiectis\\products.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{04973BBA-B7AE-4867-B881-D58BD66862C3}|ProiectIS\\ProiectIS.csproj|d:\\desktop\\facultate\\is\\proiect-is\\proiectis\\proiectis\\models\\offer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{04973BBA-B7AE-4867-B881-D58BD66862C3}|ProiectIS\\ProiectIS.csproj|solutionrelative:proiectis\\models\\offer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04973BBA-B7AE-4867-B881-D58BD66862C3}|ProiectIS\\ProiectIS.csproj|d:\\desktop\\facultate\\is\\proiect-is\\proiectis\\proiectis\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04973BBA-B7AE-4867-B881-D58BD66862C3}|ProiectIS\\ProiectIS.csproj|solutionrelative:proiectis\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{04973BBA-B7AE-4867-B881-D58BD66862C3}|ProiectIS\\ProiectIS.csproj|d:\\desktop\\facultate\\is\\proiect-is\\proiectis\\proiectis\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,20 +59,12 @@
       "RelativeMoniker": "D:0:0:{04973BBA-B7AE-4867-B881-D58BD66862C3}|ProiectIS\\ProiectIS.csproj|solutionrelative:proiectis\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04973BBA-B7AE-4867-B881-D58BD66862C3}|ProiectIS\\ProiectIS.csproj|d:\\desktop\\facultate\\is\\proiect-is\\proiectis\\proiectis\\productdetails.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{04973BBA-B7AE-4867-B881-D58BD66862C3}|ProiectIS\\ProiectIS.csproj|solutionrelative:proiectis\\productdetails.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{04973BBA-B7AE-4867-B881-D58BD66862C3}|ProiectIS\\ProiectIS.csproj|d:\\desktop\\facultate\\is\\proiect-is\\proiectis\\proiectis\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{04973BBA-B7AE-4867-B881-D58BD66862C3}|ProiectIS\\ProiectIS.csproj|solutionrelative:proiectis\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{04973BBA-B7AE-4867-B881-D58BD66862C3}|ProiectIS\\ProiectIS.csproj|d:\\desktop\\facultate\\is\\proiect-is\\proiectis\\proiectis\\signup.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{04973BBA-B7AE-4867-B881-D58BD66862C3}|ProiectIS\\ProiectIS.csproj|solutionrelative:proiectis\\signup.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04973BBA-B7AE-4867-B881-D58BD66862C3}|ProiectIS\\ProiectIS.csproj|d:\\desktop\\facultate\\is\\proiect-is\\proiectis\\proiectis\\profile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{04973BBA-B7AE-4867-B881-D58BD66862C3}|ProiectIS\\ProiectIS.csproj|solutionrelative:proiectis\\profile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{04973BBA-B7AE-4867-B881-D58BD66862C3}|ProiectIS\\ProiectIS.csproj|d:\\desktop\\facultate\\is\\proiect-is\\proiectis\\proiectis\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,28 +75,12 @@
       "RelativeMoniker": "D:0:0:{04973BBA-B7AE-4867-B881-D58BD66862C3}|ProiectIS\\ProiectIS.csproj|solutionrelative:proiectis\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04973BBA-B7AE-4867-B881-D58BD66862C3}|ProiectIS\\ProiectIS.csproj|d:\\desktop\\facultate\\is\\proiect-is\\proiectis\\proiectis\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04973BBA-B7AE-4867-B881-D58BD66862C3}|ProiectIS\\ProiectIS.csproj|solutionrelative:proiectis\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04973BBA-B7AE-4867-B881-D58BD66862C3}|ProiectIS\\ProiectIS.csproj|d:\\desktop\\facultate\\is\\proiect-is\\proiectis\\proiectis\\dashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{04973BBA-B7AE-4867-B881-D58BD66862C3}|ProiectIS\\ProiectIS.csproj|solutionrelative:proiectis\\dashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{04973BBA-B7AE-4867-B881-D58BD66862C3}|ProiectIS\\ProiectIS.csproj|d:\\desktop\\facultate\\is\\proiect-is\\proiectis\\proiectis\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{04973BBA-B7AE-4867-B881-D58BD66862C3}|ProiectIS\\ProiectIS.csproj|solutionrelative:proiectis\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04973BBA-B7AE-4867-B881-D58BD66862C3}|ProiectIS\\ProiectIS.csproj|d:\\desktop\\facultate\\is\\proiect-is\\proiectis\\proiectis\\dashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04973BBA-B7AE-4867-B881-D58BD66862C3}|ProiectIS\\ProiectIS.csproj|solutionrelative:proiectis\\dashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{04973BBA-B7AE-4867-B881-D58BD66862C3}|ProiectIS\\ProiectIS.csproj|d:\\desktop\\facultate\\is\\proiect-is\\proiectis\\proiectis\\profile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{04973BBA-B7AE-4867-B881-D58BD66862C3}|ProiectIS\\ProiectIS.csproj|solutionrelative:proiectis\\profile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04973BBA-B7AE-4867-B881-D58BD66862C3}|ProiectIS\\ProiectIS.csproj|d:\\desktop\\facultate\\is\\proiect-is\\proiectis\\proiectis\\products.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04973BBA-B7AE-4867-B881-D58BD66862C3}|ProiectIS\\ProiectIS.csproj|solutionrelative:proiectis\\products.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{04973BBA-B7AE-4867-B881-D58BD66862C3}|ProiectIS\\ProiectIS.csproj|d:\\desktop\\facultate\\is\\proiect-is\\proiectis\\proiectis\\signup.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -94,98 +98,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Offer.cs",
-              "DocumentMoniker": "D:\\Desktop\\facultate\\is\\Proiect-IS\\ProiectIS\\ProiectIS\\Models\\Offer.cs",
-              "RelativeDocumentMoniker": "ProiectIS\\Models\\Offer.cs",
-              "ToolTip": "D:\\Desktop\\facultate\\is\\Proiect-IS\\ProiectIS\\ProiectIS\\Models\\Offer.cs",
-              "RelativeToolTip": "ProiectIS\\Models\\Offer.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T12:35:01.278Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Products.xaml",
-              "DocumentMoniker": "D:\\Desktop\\facultate\\is\\Proiect-IS\\ProiectIS\\ProiectIS\\Products.xaml",
-              "RelativeDocumentMoniker": "ProiectIS\\Products.xaml",
-              "ToolTip": "D:\\Desktop\\facultate\\is\\Proiect-IS\\ProiectIS\\ProiectIS\\Products.xaml",
-              "RelativeToolTip": "ProiectIS\\Products.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-25T18:48:54.927Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Profile.xaml",
-              "DocumentMoniker": "D:\\Desktop\\facultate\\is\\Proiect-IS\\ProiectIS\\ProiectIS\\Profile.xaml",
-              "RelativeDocumentMoniker": "ProiectIS\\Profile.xaml",
-              "ToolTip": "D:\\Desktop\\facultate\\is\\Proiect-IS\\ProiectIS\\ProiectIS\\Profile.xaml",
-              "RelativeToolTip": "ProiectIS\\Profile.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-24T09:02:57.329Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LogIn.xaml.cs",
-              "DocumentMoniker": "D:\\Desktop\\facultate\\is\\Proiect-IS\\ProiectIS\\ProiectIS\\LogIn.xaml.cs",
-              "RelativeDocumentMoniker": "ProiectIS\\LogIn.xaml.cs",
-              "ToolTip": "D:\\Desktop\\facultate\\is\\Proiect-IS\\ProiectIS\\ProiectIS\\LogIn.xaml.cs",
-              "RelativeToolTip": "ProiectIS\\LogIn.xaml.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAuwB0AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T15:25:16.185Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AppDbContextModelSnapshot.cs",
-              "DocumentMoniker": "D:\\Desktop\\facultate\\is\\Proiect-IS\\ProiectIS\\ProiectIS\\Migrations\\AppDbContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "ProiectIS\\Migrations\\AppDbContextModelSnapshot.cs",
-              "ToolTip": "D:\\Desktop\\facultate\\is\\Proiect-IS\\ProiectIS\\ProiectIS\\Migrations\\AppDbContextModelSnapshot.cs",
-              "RelativeToolTip": "ProiectIS\\Migrations\\AppDbContextModelSnapshot.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T12:13:15.829Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "SignUp.xaml",
-              "DocumentMoniker": "D:\\Desktop\\facultate\\is\\Proiect-IS\\ProiectIS\\ProiectIS\\SignUp.xaml",
-              "RelativeDocumentMoniker": "ProiectIS\\SignUp.xaml",
-              "ToolTip": "D:\\Desktop\\facultate\\is\\Proiect-IS\\ProiectIS\\ProiectIS\\SignUp.xaml",
-              "RelativeToolTip": "ProiectIS\\SignUp.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-30T13:44:21.983Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\Desktop\\facultate\\is\\Proiect-IS\\ProiectIS\\ProiectIS\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "ProiectIS\\MainWindow.xaml",
-              "ToolTip": "D:\\Desktop\\facultate\\is\\Proiect-IS\\ProiectIS\\ProiectIS\\MainWindow.xaml",
-              "RelativeToolTip": "ProiectIS\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-22T16:59:30.303Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\Desktop\\facultate\\is\\Proiect-IS\\ProiectIS\\ProiectIS\\Models\\User.cs",
               "RelativeDocumentMoniker": "ProiectIS\\Models\\User.cs",
@@ -198,24 +115,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "Details.xaml",
               "DocumentMoniker": "D:\\Desktop\\facultate\\is\\Proiect-IS\\ProiectIS\\ProiectIS\\Details.xaml",
               "RelativeDocumentMoniker": "ProiectIS\\Details.xaml",
-              "ToolTip": "D:\\Desktop\\facultate\\is\\Proiect-IS\\ProiectIS\\ProiectIS\\Details.xaml*",
-              "RelativeToolTip": "ProiectIS\\Details.xaml*",
+              "ToolTip": "D:\\Desktop\\facultate\\is\\Proiect-IS\\ProiectIS\\ProiectIS\\Details.xaml",
+              "RelativeToolTip": "ProiectIS\\Details.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-05T13:50:59.443Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-05T13:50:59.443Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "Details.xaml.cs",
               "DocumentMoniker": "D:\\Desktop\\facultate\\is\\Proiect-IS\\ProiectIS\\ProiectIS\\Details.xaml.cs",
               "RelativeDocumentMoniker": "ProiectIS\\Details.xaml.cs",
-              "ToolTip": "D:\\Desktop\\facultate\\is\\Proiect-IS\\ProiectIS\\ProiectIS\\Details.xaml.cs*",
-              "RelativeToolTip": "ProiectIS\\Details.xaml.cs*",
+              "ToolTip": "D:\\Desktop\\facultate\\is\\Proiect-IS\\ProiectIS\\ProiectIS\\Details.xaml.cs",
+              "RelativeToolTip": "ProiectIS\\Details.xaml.cs",
               "ViewState": "AgIAAE8AAAAAAAAAAAAAAFoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-05T13:52:37.47Z",
@@ -235,32 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\Desktop\\facultate\\is\\Proiect-IS\\ProiectIS\\ProiectIS\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "ProiectIS\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\Desktop\\facultate\\is\\Proiect-IS\\ProiectIS\\ProiectIS\\MainWindow.xaml.cs",
-              "RelativeToolTip": "ProiectIS\\MainWindow.xaml.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAgwDIAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T22:45:45.975Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "LogIn.xaml",
-              "DocumentMoniker": "D:\\Desktop\\facultate\\is\\Proiect-IS\\ProiectIS\\ProiectIS\\LogIn.xaml",
-              "RelativeDocumentMoniker": "ProiectIS\\LogIn.xaml",
-              "ToolTip": "D:\\Desktop\\facultate\\is\\Proiect-IS\\ProiectIS\\ProiectIS\\LogIn.xaml",
-              "RelativeToolTip": "ProiectIS\\LogIn.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-30T13:57:23.798Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\Desktop\\facultate\\is\\Proiect-IS\\ProiectIS\\ProiectIS\\AppDbContext.cs",
               "RelativeDocumentMoniker": "ProiectIS\\AppDbContext.cs",
@@ -273,7 +164,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 1,
+              "Title": "Products.xaml",
+              "DocumentMoniker": "D:\\Desktop\\facultate\\is\\Proiect-IS\\ProiectIS\\ProiectIS\\Products.xaml",
+              "RelativeDocumentMoniker": "ProiectIS\\Products.xaml",
+              "ToolTip": "D:\\Desktop\\facultate\\is\\Proiect-IS\\ProiectIS\\ProiectIS\\Products.xaml",
+              "RelativeToolTip": "ProiectIS\\Products.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-25T18:48:54.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Dashboard.xaml",
               "DocumentMoniker": "D:\\Desktop\\facultate\\is\\Proiect-IS\\ProiectIS\\ProiectIS\\Dashboard.xaml",
               "RelativeDocumentMoniker": "ProiectIS\\Dashboard.xaml",
@@ -285,7 +188,140 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dashboard.xaml.cs",
+              "DocumentMoniker": "D:\\Desktop\\facultate\\is\\Proiect-IS\\ProiectIS\\ProiectIS\\Dashboard.xaml.cs",
+              "RelativeDocumentMoniker": "ProiectIS\\Dashboard.xaml.cs",
+              "ToolTip": "D:\\Desktop\\facultate\\is\\Proiect-IS\\ProiectIS\\ProiectIS\\Dashboard.xaml.cs",
+              "RelativeToolTip": "ProiectIS\\Dashboard.xaml.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T14:03:46.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Products.xaml.cs",
+              "DocumentMoniker": "D:\\Desktop\\facultate\\is\\Proiect-IS\\ProiectIS\\ProiectIS\\Products.xaml.cs",
+              "RelativeDocumentMoniker": "ProiectIS\\Products.xaml.cs",
+              "ToolTip": "D:\\Desktop\\facultate\\is\\Proiect-IS\\ProiectIS\\ProiectIS\\Products.xaml.cs",
+              "RelativeToolTip": "ProiectIS\\Products.xaml.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAACIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T18:55:36.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Profile.xaml",
+              "DocumentMoniker": "D:\\Desktop\\facultate\\is\\Proiect-IS\\ProiectIS\\ProiectIS\\Profile.xaml",
+              "RelativeDocumentMoniker": "ProiectIS\\Profile.xaml",
+              "ToolTip": "D:\\Desktop\\facultate\\is\\Proiect-IS\\ProiectIS\\ProiectIS\\Profile.xaml",
+              "RelativeToolTip": "ProiectIS\\Profile.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-24T09:02:57.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Desktop\\facultate\\is\\Proiect-IS\\ProiectIS\\ProiectIS\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "ProiectIS\\MainWindow.xaml",
+              "ToolTip": "D:\\Desktop\\facultate\\is\\Proiect-IS\\ProiectIS\\ProiectIS\\MainWindow.xaml",
+              "RelativeToolTip": "ProiectIS\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-22T16:59:30.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\Desktop\\facultate\\is\\Proiect-IS\\ProiectIS\\ProiectIS\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "ProiectIS\\Models\\Product.cs",
+              "ToolTip": "D:\\Desktop\\facultate\\is\\Proiect-IS\\ProiectIS\\ProiectIS\\Models\\Product.cs",
+              "RelativeToolTip": "ProiectIS\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T13:08:49.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 15,
+              "Title": "SignUp.xaml",
+              "DocumentMoniker": "D:\\Desktop\\facultate\\is\\Proiect-IS\\ProiectIS\\ProiectIS\\SignUp.xaml",
+              "RelativeDocumentMoniker": "ProiectIS\\SignUp.xaml",
+              "ToolTip": "D:\\Desktop\\facultate\\is\\Proiect-IS\\ProiectIS\\ProiectIS\\SignUp.xaml",
+              "RelativeToolTip": "ProiectIS\\SignUp.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-30T13:44:21.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\Desktop\\facultate\\is\\Proiect-IS\\ProiectIS\\ProiectIS\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "ProiectIS\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\Desktop\\facultate\\is\\Proiect-IS\\ProiectIS\\ProiectIS\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "ProiectIS\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T12:13:15.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LogIn.xaml.cs",
+              "DocumentMoniker": "D:\\Desktop\\facultate\\is\\Proiect-IS\\ProiectIS\\ProiectIS\\LogIn.xaml.cs",
+              "RelativeDocumentMoniker": "ProiectIS\\LogIn.xaml.cs",
+              "ToolTip": "D:\\Desktop\\facultate\\is\\Proiect-IS\\ProiectIS\\ProiectIS\\LogIn.xaml.cs",
+              "RelativeToolTip": "ProiectIS\\LogIn.xaml.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAuwB0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T15:25:16.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Offer.cs",
+              "DocumentMoniker": "D:\\Desktop\\facultate\\is\\Proiect-IS\\ProiectIS\\ProiectIS\\Models\\Offer.cs",
+              "RelativeDocumentMoniker": "ProiectIS\\Models\\Offer.cs",
+              "ToolTip": "D:\\Desktop\\facultate\\is\\Proiect-IS\\ProiectIS\\ProiectIS\\Models\\Offer.cs",
+              "RelativeToolTip": "ProiectIS\\Models\\Offer.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T12:35:01.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Desktop\\facultate\\is\\Proiect-IS\\ProiectIS\\ProiectIS\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ProiectIS\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Desktop\\facultate\\is\\Proiect-IS\\ProiectIS\\ProiectIS\\MainWindow.xaml.cs",
+              "RelativeToolTip": "ProiectIS\\MainWindow.xaml.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwDIAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T22:45:45.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LogIn.xaml",
+              "DocumentMoniker": "D:\\Desktop\\facultate\\is\\Proiect-IS\\ProiectIS\\ProiectIS\\LogIn.xaml",
+              "RelativeDocumentMoniker": "ProiectIS\\LogIn.xaml",
+              "ToolTip": "D:\\Desktop\\facultate\\is\\Proiect-IS\\ProiectIS\\ProiectIS\\LogIn.xaml",
+              "RelativeToolTip": "ProiectIS\\LogIn.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-30T13:57:23.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "D:\\Desktop\\facultate\\is\\Proiect-IS\\ProiectIS\\ProiectIS\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "ProiectIS\\AssemblyInfo.cs",
@@ -293,24 +329,11 @@
               "RelativeToolTip": "ProiectIS\\AssemblyInfo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T11:36:39.687Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T11:36:39.687Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Dashboard.xaml.cs",
-              "DocumentMoniker": "D:\\Desktop\\facultate\\is\\Proiect-IS\\ProiectIS\\ProiectIS\\Dashboard.xaml.cs",
-              "RelativeDocumentMoniker": "ProiectIS\\Dashboard.xaml.cs",
-              "ToolTip": "D:\\Desktop\\facultate\\is\\Proiect-IS\\ProiectIS\\ProiectIS\\Dashboard.xaml.cs",
-              "RelativeToolTip": "ProiectIS\\Dashboard.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T14:03:46.647Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "Profile.xaml.cs",
               "DocumentMoniker": "D:\\Desktop\\facultate\\is\\Proiect-IS\\ProiectIS\\ProiectIS\\Profile.xaml.cs",
               "RelativeDocumentMoniker": "ProiectIS\\Profile.xaml.cs",
@@ -322,19 +345,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Products.xaml.cs",
-              "DocumentMoniker": "D:\\Desktop\\facultate\\is\\Proiect-IS\\ProiectIS\\ProiectIS\\Products.xaml.cs",
-              "RelativeDocumentMoniker": "ProiectIS\\Products.xaml.cs",
-              "ToolTip": "D:\\Desktop\\facultate\\is\\Proiect-IS\\ProiectIS\\ProiectIS\\Products.xaml.cs",
-              "RelativeToolTip": "ProiectIS\\Products.xaml.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T18:55:36.697Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "SignUp.xaml.cs",
               "DocumentMoniker": "D:\\Desktop\\facultate\\is\\Proiect-IS\\ProiectIS\\ProiectIS\\SignUp.xaml.cs",
               "RelativeDocumentMoniker": "ProiectIS\\SignUp.xaml.cs",
@@ -346,7 +357,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "AddProduct.xaml",
               "DocumentMoniker": "D:\\Desktop\\facultate\\is\\Proiect-IS\\ProiectIS\\ProiectIS\\AddProduct.xaml",
               "RelativeDocumentMoniker": "ProiectIS\\AddProduct.xaml",
