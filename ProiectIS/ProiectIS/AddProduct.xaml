@@ -8,6 +8,7 @@
          WindowStartupLocation="CenterScreen"
         Title="Adauga Produs" Height="550" Width="550">
     <Grid>
+        <Button Name="backBtn" Width="55" Height="20" FontFamily="Times New Roman" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10" Click="backBtn_Click">Inapoi</Button>
        
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
             <TextBlock Name="titleTxt" Margin="10,0,10,10" FontSize="30" FontFamily="Times New Roman">Adauga produs</TextBlock>

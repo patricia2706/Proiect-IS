@@ -105,5 +105,12 @@ namespace ProiectIS
             }
                    
         }
+
+        private void backBtn_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow main = new MainWindow(user);
+            main.Show();
+            this.Close();
+        }
     }
 }
