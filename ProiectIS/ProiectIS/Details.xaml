@@ -20,8 +20,9 @@
             <GroupBox Header="Produse" FontFamily="Times New Roman" Margin="10">
                 <ListBox Name="productsList" Height="100" Width="100" Margin="10"></ListBox>
             </GroupBox>
-            <Button Name="deleteBtn" Margin="10" Height="40" Width="100" FontFamily="Times New Roman" Click="deleteBtn_Click">Sterge utilizator</Button>
-            <Button Name="acceptBtn" Margin="10" Height="40" Width="100" FontFamily="Times New Roman" Visibility="Visible" Click="acceptBtn_Click">Accepta vanzator</Button>
+            <Button Name="deleteBtn" Margin="5" Height="40" Width="100" FontFamily="Times New Roman" Click="deleteBtn_Click">Sterge utilizator</Button>
+            <Button Name="acceptBtn" Margin="5" Height="40" Width="100" FontFamily="Times New Roman" Visibility="Visible" Click="acceptBtn_Click">Accepta vanzator</Button>
+            <Button Name="dismissBtn" Margin="5" Height="40" Width="100" FontFamily="Times New Roman" Visibility="Visible" Click="dismissBtn_Click" >Respinge vanzator</Button>
         </StackPanel>
     </Grid>
 </Window>

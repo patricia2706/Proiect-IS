@@ -137,3 +137,4 @@ D:\Desktop\facultate\is\Proiect-IS\ProiectIS\ProiectIS\obj\Debug\net8.0-windows\
 D:\Desktop\facultate\is\Proiect-IS\ProiectIS\ProiectIS\obj\Debug\net8.0-windows\Details.baml
 D:\Desktop\facultate\is\Proiect-IS\ProiectIS\ProiectIS\obj\Debug\net8.0-windows\ProductDetails.g.cs
 D:\Desktop\facultate\is\Proiect-IS\ProiectIS\ProiectIS\obj\Debug\net8.0-windows\ProductDetails.baml
+D:\Desktop\facultate\is\Proiect-IS\ProiectIS\ProiectIS\obj\Debug\net8.0-windows\ProiectIS.sourcelink.json

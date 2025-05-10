@@ -32,21 +32,25 @@ namespace ProiectIS
                 case UserStatus.Seller:
                     deleteBtn.Visibility = Visibility.Visible;
                     acceptBtn.Visibility = Visibility.Collapsed;
+                    dismissBtn.Visibility = Visibility.Collapsed;
                     break;
 
                 case UserStatus.Admin:
                     deleteBtn.Visibility = Visibility.Visible;
                     acceptBtn.Visibility = Visibility.Collapsed;
+                    dismissBtn.Visibility = Visibility.Collapsed;
                     break;
 
                 case UserStatus.Buyer:
                     deleteBtn.Visibility = Visibility.Visible;
                     acceptBtn.Visibility = Visibility.Collapsed;
+                    dismissBtn.Visibility = Visibility.Collapsed;
                     break;
 
                 case UserStatus.PendingSeller:
                     deleteBtn.Visibility = Visibility.Visible;
                     acceptBtn.Visibility = Visibility.Visible;
+                    dismissBtn.Visibility = Visibility.Visible;
                     break;
             }
 
@@ -80,6 +84,20 @@ namespace ProiectIS
             this.Close();
             det.Show();
             
+        }
+
+        private void dismissBtn_Click(object sender, RoutedEventArgs e)
+        {
+
+            if (user.Status == UserStatus.PendingSeller)
+            {
+                user.Status = UserStatus.Buyer;
+            }
+            _db.Users.Update(user);
+            _db.SaveChanges();
+            Details det = new Details(user);
+            this.Close();
+            det.Show();
         }
     }
 }
