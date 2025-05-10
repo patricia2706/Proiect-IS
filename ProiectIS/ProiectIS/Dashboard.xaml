@@ -1,0 +1,52 @@
+﻿<Window x:Class="ProiectIS.Dashboard"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProiectIS"
+        mc:Ignorable="d"
+         WindowStartupLocation="CenterScreen"
+        Title="Dashboard" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="11*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="5*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Row="0" Grid.Column="0">
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="30" FontFamily="Times New Roman Bold" >USERS</TextBlock>
+            <Button FontFamily="Times New Roman" Width="100" Height="60" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10" Name="backBtn" Click="backBtn_Click">
+                Inapoi
+            </Button>
+        </Grid>
+        <Grid Grid.Row="1" Grid.Column="0">
+            <DataGrid Name="usersDataGrid"
+                AutoGenerateColumns="True"
+                IsReadOnly="True"
+                Margin="10"
+                FontFamily="Times New Roman"
+                FontSize="15" 
+                MouseDoubleClick="usersDataGrid_MouseDoubleClick"
+          Grid.Row="1"/>
+
+
+        </Grid>
+
+        <Grid Grid.Row="1" Grid.Column="1">
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                <RadioButton FontFamily="Times New Roman" FontSize="15" Name="allRadioBtn" Checked="allRadioBtn_Checked">All</RadioButton>
+                <RadioButton FontFamily="Times New Roman" FontSize="15" Name="sellerRadioBtn" Checked="sellerRadioBtn_Checked">Seller</RadioButton>
+                <RadioButton FontFamily="Times New Roman" FontSize="15" Name="buyerRadioBtn" Checked="buyerRadioBtn_Checked">Buyer</RadioButton>
+                <RadioButton FontFamily="Times New Roman" FontSize="15" Name="penSellerRadioBtn" Checked="penSellerRadioBtn_Checked">Pending Seller</RadioButton>
+                <RadioButton FontFamily="Times New Roman" FontSize="15" Name="cancelledRadioBtn" Checked="cancelledRadioBtn_Checked">Canceled</RadioButton>
+            </StackPanel>
+            
+        </Grid>
+
+    </Grid>
+</Window>

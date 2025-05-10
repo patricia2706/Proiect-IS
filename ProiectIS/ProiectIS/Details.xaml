@@ -1,0 +1,27 @@
+﻿<Window x:Class="ProiectIS.Details"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProiectIS"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="Detalii" Height="550" Width="350">
+    <Grid>
+        <Button Name="backBtn" Width="55" Height="20" FontFamily="Times New Roman" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10" Click="backBtn_Click">Inapoi</Button>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock Name="titleTxt" Margin="10" FontSize="20" FontFamily="Times New Roman">Detalii</TextBlock>
+            <GroupBox Header="Email" FontFamily="Times New Roman" Margin="10">
+                <TextBlock Name="emailTxt" Margin="10" FontFamily="Times New Roman">email</TextBlock>
+            </GroupBox>
+            <GroupBox Header="Status" FontFamily="Times New Roman" Margin="10">
+                <TextBlock Name="statusTxt" Margin="10" FontFamily="Times New Roman">status</TextBlock>
+            </GroupBox>
+            <GroupBox Header="Produse" FontFamily="Times New Roman" Margin="10">
+                <ListBox Name="productsList" Height="100" Width="100" Margin="10"></ListBox>
+            </GroupBox>
+            <Button Name="deleteBtn" Margin="10" Height="40" Width="100" FontFamily="Times New Roman" Click="deleteBtn_Click">Sterge utilizator</Button>
+            <Button Name="acceptBtn" Margin="10" Height="40" Width="100" FontFamily="Times New Roman" Visibility="Visible" Click="acceptBtn_Click">Accepta vanzator</Button>
+        </StackPanel>
+    </Grid>
+</Window>

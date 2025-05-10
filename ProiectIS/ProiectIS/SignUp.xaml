@@ -1,0 +1,63 @@
+﻿<Window x:Class="ProiectIS.SignUp"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProiectIS"
+         WindowStartupLocation="CenterScreen"
+        mc:Ignorable="d"
+        Title="SignUp" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.5*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        
+        <Grid Grid.Row="0">
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="30" FontFamily="Times New Roman Bold" >SIGN UP</TextBlock>
+            <Button FontFamily="Times New Roman" Width="100" Height="60" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10" Name="backBtn" Click="backBtn_Click">
+                Inapoi
+            </Button>
+        </Grid>
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Grid Grid.Column="1">
+                <StackPanel VerticalAlignment="Center">
+                    <GroupBox Margin="10" Name="emailGrp" >
+                        <GroupBox.Header>
+                            <Label FontFamily="Times New Roman">Email</Label>
+                        </GroupBox.Header>
+                        <TextBox Margin="10" Name="emailTxtBox"></TextBox>
+                    </GroupBox>
+                    <GroupBox Margin="10" Name="passwGrp" >
+                        <GroupBox.Header>
+                            <Label FontFamily="Times New Roman">Password</Label>
+                        </GroupBox.Header>
+                        <PasswordBox Margin="10" Name="passwordTxtBox"></PasswordBox>
+                    </GroupBox>
+                    <GroupBox Margin="10" Name="confPasswGrp" >
+                        <GroupBox.Header>
+                            <Label FontFamily="Times New Roman">Confirm Password</Label>
+                        </GroupBox.Header>
+                        <PasswordBox Margin="10" Name="confPasswordTxtBox" ></PasswordBox>
+                    </GroupBox>
+                </StackPanel>
+            </Grid>
+
+        </Grid>
+        <Grid Grid.Row="2">
+            <Button Margin="250,20,250,20" FontFamily="Times New Roman" FontSize="20" Click="signUpBtn_Click">
+                Inregistreaza-te
+            </Button>
+        </Grid>
+    </Grid>
+
+    
+</Window>

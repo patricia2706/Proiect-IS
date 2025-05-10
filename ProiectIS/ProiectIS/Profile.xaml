@@ -1,0 +1,32 @@
+﻿<Window x:Class="ProiectIS.Profile"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProiectIS"
+        mc:Ignorable="d"
+         WindowStartupLocation="CenterScreen"
+        ResizeMode="CanResize"
+        Title="Profil" Height="350" Width="350">
+    <Grid>
+        <TextBlock VerticalAlignment="Top" HorizontalAlignment="Center" Margin="10" FontFamily="Times New Roman" FontSize="20">Profilul tau</TextBlock>
+        <Button FontFamily="Times New Roman" Width="55" Height="20" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10" Name="backBtn" Click="backBtn_Click">
+            Inapoi
+        </Button>
+        <Border BorderBrush="Black" BorderThickness="1" CornerRadius="10" Margin="40">
+            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" >
+                <GroupBox Name="emailGrpBox">
+                    <GroupBox.Header > Email </GroupBox.Header>
+                    <TextBlock Margin="10" Name="emailTxt" FontFamily="Times New Roman">email</TextBlock>
+                </GroupBox>
+                <GroupBox Name="statusGrpBox">
+                    <GroupBox.Header >Status</GroupBox.Header>
+                    <TextBlock Margin="10" Name="statusTxt" FontFamily="Times New Roman">status</TextBlock>
+                </GroupBox>
+                <Button Margin="20,10,20,10" Height="30" Width="90" FontFamily="Times New Roman" Name="disconnectBtn" Click="disconnectBtn_Click" Visibility="Visible">Deconectare</Button>
+                <Button Margin="20,0,20,0" Height="30" Width="90" FontFamily="Times New Roman" Name="pendingSellerBtn" Click="pendingSellerBtn_Click" Visibility="Visible">Vanzator</Button>
+                
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>

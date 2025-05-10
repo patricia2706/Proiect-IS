@@ -1,0 +1,226 @@
+﻿<Window x:Class="ProiectIS.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProiectIS"
+        mc:Ignorable="d"
+        ResizeMode="CanResize"
+         WindowStartupLocation="CenterScreen"
+        Title="HomePage" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1.5*"></RowDefinition>
+            <RowDefinition Height="7*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0" Name="navbarGrid">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Grid Grid.Column="0">
+                <Button Name="logInBtn" FontFamily="Times New Roman Bold" FontSize="20" Width="150" Height="60" HorizontalAlignment="Center" VerticalAlignment="Center" Click="logInBtn_Click" Visibility="Visible">
+                    Log In
+                    <Button.Style>
+                        <Style TargetType="Button">
+                            <Setter Property="OverridesDefaultStyle" Value="True"/>
+                            <Setter Property="Cursor" Value="Hand"/>
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="Button">
+                                        <Border x:Name="border"
+                                            Background="#789DBC"
+                                             CornerRadius="8"
+                                             BorderBrush="Transparent"
+                                             BorderThickness="0"
+                                             Padding="10,5">
+                                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                        </Border>
+                                        <ControlTemplate.Triggers>
+                                            <Trigger Property="IsMouseOver" Value="True">
+                                                <Setter TargetName="border" Property="Background" Value="#A6C0D9"/>
+                                            </Trigger>
+                                        </ControlTemplate.Triggers>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </Button.Style>
+                </Button>
+
+                <Button Name="profileBtn" FontFamily="Times New Roman Bold" FontSize="20" Width="150" Height="60" HorizontalAlignment="Center" VerticalAlignment="Center" Click="profileBtn_Click" Visibility="Collapsed">
+                    Profil
+                    <Button.Style>
+                        <Style TargetType="Button">
+                            <Setter Property="OverridesDefaultStyle" Value="True"/>
+                            <Setter Property="Cursor" Value="Hand"/>
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="Button">
+                                        <Border x:Name="border"
+                                            Background="#789DBC"
+                                            CornerRadius="8"
+                                            BorderBrush="Transparent"
+                                            BorderThickness="0"
+                                            Padding="10,5">
+                                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                        </Border>
+                                        <ControlTemplate.Triggers>
+                                            <Trigger Property="IsMouseOver" Value="True">
+                                                <Setter TargetName="border" Property="Background" Value="#A6C0D9"/>
+                                            </Trigger>
+                                        </ControlTemplate.Triggers>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </Button.Style>
+                </Button>
+
+                
+            </Grid>
+
+            <Grid Grid.Column="1">
+                <Button Name="dashboardBtn" FontFamily="Times New Roman Bold" FontSize="20" Width="150" Height="60" HorizontalAlignment="Center" VerticalAlignment="Center" Click="dashboardBtn_Click" Visibility="Collapsed">
+                    Dashboard
+                    <Button.Style>
+                        <Style TargetType="Button">
+                            <Setter Property="OverridesDefaultStyle" Value="True"/>
+                            <Setter Property="Cursor" Value="Hand"/>
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="Button">
+                                        <Border x:Name="border"
+                            Background="#789DBC"
+                            CornerRadius="8"
+                            BorderBrush="Transparent"
+                            BorderThickness="0"
+                            Padding="10,5">
+                                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                        </Border>
+                                        <ControlTemplate.Triggers>
+                                            <Trigger Property="IsMouseOver" Value="True">
+                                                <Setter TargetName="border" Property="Background" Value="#A6C0D9"/>
+                                            </Trigger>
+                                        </ControlTemplate.Triggers>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </Button.Style>
+                </Button>
+                
+                <Button Name="signUpBtn" FontFamily="Times New Roman Bold" FontSize="20" Width="150" Height="60" HorizontalAlignment="Center" VerticalAlignment="Center" Click="signUpBtn_Click" Visibility="Visible">
+                    Sign Up
+                    <Button.Style>
+                        <Style TargetType="Button">
+                            <Setter Property="OverridesDefaultStyle" Value="True"/>
+                            <Setter Property="Cursor" Value="Hand"/>
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="Button">
+                                        <Border x:Name="border"
+                                            Background="#789DBC"
+                                            CornerRadius="8"
+                                            BorderBrush="Transparent"
+                                            BorderThickness="0"
+                                            Padding="10,5">
+                                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                        </Border>
+                                        <ControlTemplate.Triggers>
+                                            <Trigger Property="IsMouseOver" Value="True">
+                                                <Setter TargetName="border" Property="Background" Value="#A6C0D9"/>
+                                            </Trigger>
+                                        </ControlTemplate.Triggers>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </Button.Style>
+                </Button>
+                <Button Name="sellBtn" FontFamily="Times New Roman Bold" FontSize="20" Width="150" Height="60" HorizontalAlignment="Center" VerticalAlignment="Center" Click="sellBtn_Click" Visibility="Collapsed">
+                    Adauga Produs
+                    <Button.Style>
+                        <Style TargetType="Button">
+                            <Setter Property="OverridesDefaultStyle" Value="True"/>
+                            <Setter Property="Cursor" Value="Hand"/>
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="Button">
+                                        <Border x:Name="border"
+                                            Background="#789DBC"
+                                            CornerRadius="8"
+                                            BorderBrush="Transparent"
+                                            BorderThickness="0"
+                                            Padding="10,5">
+                                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                        </Border>
+                                        <ControlTemplate.Triggers>
+                                            <Trigger Property="IsMouseOver" Value="True">
+                                                <Setter TargetName="border" Property="Background" Value="#A6C0D9"/>
+                                            </Trigger>
+                                        </ControlTemplate.Triggers>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </Button.Style>
+                </Button>
+            </Grid>
+            <Grid Grid.Column="2">
+                <Button Name="viewBtn" FontFamily="Times New Roman Bold" FontSize="20" Width="150" Height="60" HorizontalAlignment="Center" VerticalAlignment="Center" Click="viewBtn_Click">
+                    Produse
+                    <Button.Style>
+                        <Style TargetType="Button">
+                            <Setter Property="OverridesDefaultStyle" Value="True"/>
+                            <Setter Property="Cursor" Value="Hand"/>
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="Button">
+                                        <Border x:Name="border"
+                                            Background="#789DBC"
+                                            CornerRadius="8"
+                                            BorderBrush="Transparent"
+                                            BorderThickness="0"
+                                            Padding="10,5">
+                                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                        </Border>
+                                        <ControlTemplate.Triggers>
+                                            <Trigger Property="IsMouseOver" Value="True">
+                                                <Setter TargetName="border" Property="Background" Value="#A6C0D9"/>
+                                            </Trigger>
+                                        </ControlTemplate.Triggers>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </Button.Style>
+                </Button>
+            </Grid>
+
+        </Grid>
+
+        <Grid Grid.Row="1" Background="#789DBC">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0">
+                <TextBlock Name="nameTxt" FontFamily="Times New Roman Bold" FontSize="50" HorizontalAlignment="Center" VerticalAlignment="Bottom" >
+                ClickCart
+                </TextBlock>
+            </Grid>
+            <Grid Grid.Row="1">
+                <TextBlock Name="Txt" FontFamily="Times New Roman" FontSize="35" HorizontalAlignment="Center" VerticalAlignment="Top" >
+                    Eşti la un click distanţă de tot ce îţi doreşti
+                </TextBlock>
+            </Grid>
+        </Grid>
+
+
+
+    </Grid>
+</Window>
