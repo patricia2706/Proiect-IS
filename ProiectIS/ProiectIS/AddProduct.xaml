@@ -6,8 +6,26 @@
         xmlns:local="clr-namespace:ProiectIS"
         mc:Ignorable="d"
          WindowStartupLocation="CenterScreen"
-        Title="Adauga Produs" Height="450" Width="800">
+        Title="Adauga Produs" Height="550" Width="550">
     <Grid>
-        
+       
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock Name="titleTxt" Margin="10,0,10,10" FontSize="30" FontFamily="Times New Roman">Adauga produs</TextBlock>
+            <GroupBox Header="Nume" Margin="0,10,0,10"> 
+                <TextBox Margin="10" Name="nameTxtBox"></TextBox>
+            </GroupBox>
+            <GroupBox Header="Pret" Margin="0,0,0,10">
+                <TextBox Margin="10" Name="priceTxtBox"></TextBox>
+            </GroupBox>
+            <GroupBox Header="Descriere">
+                <TextBox Margin="10" Name="descriptionTxtBox" TextWrapping="Wrap"></TextBox>
+            </GroupBox>
+            <CheckBox Margin="10" Name="negociableCheckBox" Checked="CheckBox_Checked" Unchecked="CheckBox_Checked">Este negociabil?</CheckBox>
+            <GroupBox Header="Pret minim: " Name="minPriceGrpBox" Visibility="Collapsed">
+                <TextBox Margin="10" Name="minPriceTxtBox" Visibility="Visible"></TextBox>
+            </GroupBox>
+            <Button Name="addBtn" Margin="10" Height="35" Width="100" FontFamily="Times New Roman" FontSize="15" Click="addBtn_Click">Adauga</Button>
+
+        </StackPanel>
     </Grid>
 </Window>

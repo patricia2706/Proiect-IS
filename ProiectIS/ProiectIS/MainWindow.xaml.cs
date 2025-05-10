@@ -90,7 +90,7 @@ namespace ProiectIS
 
         private void sellBtn_Click(object sender, RoutedEventArgs e)
         {
-            AddProduct window = new AddProduct();
+            AddProduct window = new AddProduct(user);
             window.Show();
             this.Close();
         }
