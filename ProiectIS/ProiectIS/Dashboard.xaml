@@ -19,19 +19,19 @@
         </Grid.ColumnDefinitions>
 
         <Grid Grid.Row="0" Grid.Column="0">
-            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="30" FontFamily="Times New Roman Bold" >USERS</TextBlock>
+            <TextBlock Name="titleTxt" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="30" FontFamily="Times New Roman Bold" >USERS</TextBlock>
             <Button FontFamily="Times New Roman" Width="100" Height="60" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10" Name="backBtn" Click="backBtn_Click">
                 Inapoi
             </Button>
         </Grid>
         <Grid Grid.Row="1" Grid.Column="0">
-            <DataGrid Name="usersDataGrid"
+            <DataGrid Name="elementsDataGrid"
                 AutoGenerateColumns="True"
                 IsReadOnly="True"
                 Margin="10"
                 FontFamily="Times New Roman"
                 FontSize="15" 
-                MouseDoubleClick="usersDataGrid_MouseDoubleClick"
+                MouseDoubleClick="elementsDataGrid_MouseDoubleClick"
           Grid.Row="1"/>
 
 
@@ -39,11 +39,13 @@
 
         <Grid Grid.Row="1" Grid.Column="1">
             <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                <RadioButton FontFamily="Times New Roman" FontSize="15" Name="allRadioBtn" Checked="allRadioBtn_Checked">All</RadioButton>
-                <RadioButton FontFamily="Times New Roman" FontSize="15" Name="sellerRadioBtn" Checked="sellerRadioBtn_Checked">Seller</RadioButton>
-                <RadioButton FontFamily="Times New Roman" FontSize="15" Name="buyerRadioBtn" Checked="buyerRadioBtn_Checked">Buyer</RadioButton>
-                <RadioButton FontFamily="Times New Roman" FontSize="15" Name="penSellerRadioBtn" Checked="penSellerRadioBtn_Checked">Pending Seller</RadioButton>
-                <RadioButton FontFamily="Times New Roman" FontSize="15" Name="cancelledRadioBtn" Checked="cancelledRadioBtn_Checked">Canceled</RadioButton>
+                <RadioButton FontFamily="Times New Roman" FontSize="15" Name="allRadioBtn" Checked="allRadioBtn_Checked" Visibility="Visible">All</RadioButton>
+                <RadioButton FontFamily="Times New Roman" FontSize="15" Name="sellerRadioBtn" Checked="sellerRadioBtn_Checked" Visibility="Visible">Seller</RadioButton>
+                <RadioButton FontFamily="Times New Roman" FontSize="15" Name="buyerRadioBtn" Checked="buyerRadioBtn_Checked" Visibility="Visible">Buyer</RadioButton>
+                <RadioButton FontFamily="Times New Roman" FontSize="15" Name="penSellerRadioBtn" Checked="penSellerRadioBtn_Checked" Visibility="Visible">Pending Seller</RadioButton>
+                <RadioButton FontFamily="Times New Roman" FontSize="15" Name="cancelledRadioBtn" Checked="cancelledRadioBtn_Checked" Visibility="Visible">Canceled</RadioButton>
+                <Button Name="acceptBtn" Margin="5" Height="40" Width="100" FontFamily="Times New Roman" Visibility="Collapsed" Click="acceptBtn_Click">Accepta</Button>
+                <Button Name="dismissBtn" Margin="5" Height="40" Width="100" FontFamily="Times New Roman" Visibility="Collapsed" Click="dismissBtn_Click" >Respinge</Button>
             </StackPanel>
             
         </Grid>

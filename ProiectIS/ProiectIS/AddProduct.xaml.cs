@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -46,13 +47,13 @@ namespace ProiectIS
                 return;
             }
 
-            if (!(priceTxtBox.Text.All(char.IsDigit)))
+            if (!Regex.IsMatch(priceTxtBox.Text, @"^\d+(\.\d{1,2})?$"))
             {
                 MessageBox.Show("Pretul trebuie sa contina doar cifre!", "Atentie", MessageBoxButton.OK, MessageBoxImage.Error);
                 return;
             }
 
-            if (!(minPriceTxtBox.Text.All(char.IsDigit)))
+            if (!Regex.IsMatch(priceTxtBox.Text, @"^\d+(\.\d{1,2})?$"))
             {
                 MessageBox.Show("Pretul minim trebuie sa contina doar cifre!", "Atentie", MessageBoxButton.OK, MessageBoxImage.Error);
                 return;
@@ -85,7 +86,7 @@ namespace ProiectIS
             _db.SaveChanges();
             MessageBox.Show("Produsul a fost adaugat!", "Atentie", MessageBoxButton.OK, MessageBoxImage.Information);
 
-            MainWindow main = new MainWindow(user);
+            Options main = new Options(user);
             main.Show();
             this.Close();
             
@@ -108,7 +109,7 @@ namespace ProiectIS
 
         private void backBtn_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow main = new MainWindow(user);
+            Options main = new Options(user);
             main.Show();
             this.Close();
         }

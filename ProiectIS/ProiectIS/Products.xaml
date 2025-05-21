@@ -8,6 +8,58 @@
          WindowStartupLocation="CenterScreen"
         Title="Produse" Height="450" Width="800">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0">
+            <Button FontFamily="Times New Roman" Width="55" Height="20" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10" Name="backBtn" Click="backBtn_Click">
+                Inapoi
+            </Button>
+        </Grid>
+
+        <Grid Grid.Row="1">
+            <ScrollViewer VerticalScrollBarVisibility="Auto">
+                <ItemsControl Name="prodItemsControl" ItemsSource="{Binding Prod}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Border BorderThickness="1"
+                            CornerRadius="10"
+                            Margin="10"
+                            Padding="15"
+                            Background="#FFF"
+                            BorderBrush="#DDD"
+                            Effect="{DynamicResource ShadowEffect}">
+                                <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+                                    <TextBlock Text="{Binding Name}"
+                                        FontWeight="SemiBold"
+                                        FontSize="18"
+                                        Foreground="#333"
+                                        Margin="0,0,0,5"
+                                        TextAlignment="Center"/>
+                                    <TextBlock Text="{Binding Price, StringFormat={}{0} RON}" 
+                                        FontSize="16"
+                                        Foreground="#777"
+                                        TextAlignment="Center"/>
+                                    <Button Content="Detalii"
+                                        Name="detailsBtn"
+                                        Click="detailsBtn_Click"
+                                        Width="100"
+                                        Margin="0,10,0,0"
+                                        HorizontalAlignment="Center"
+                                        Background="#789DBC"
+                                        Foreground="White"
+                                        BorderThickness="0"
+                                        Padding="5"
+                                        Cursor="Hand"/>
+                                </StackPanel>
+                            </Border>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </ScrollViewer>
+        </Grid>
+
     </Grid>
 </Window>

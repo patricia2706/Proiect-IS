@@ -1,0 +1,221 @@
+﻿<Window x:Class="ProiectIS.Options"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProiectIS"
+        mc:Ignorable="d"
+                WindowStartupLocation="CenterScreen"
+        Title="Options" Height="450" Width="500">
+    <Grid>
+        <Button FontFamily="Times New Roman" Width="55" Height="20" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10" Name="backBtn" Click="backBtn_Click">
+            Inapoi
+        </Button>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock HorizontalAlignment="Center" FontSize="35" FontFamily="Times New Roman" FontWeight="Bold">Optiuni</TextBlock>
+            <Button Name="sellBtn" Margin="20" FontFamily="Times New Roman Bold" FontSize="20" Width="210" Height="60" HorizontalAlignment="Center" VerticalAlignment="Center" Click="sellBtn_Click" Visibility="Visible">
+                Adauga Produs
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="OverridesDefaultStyle" Value="True"/>
+                        <Setter Property="Cursor" Value="Hand"/>
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="Button">
+                                    <Border x:Name="border"
+                            Background="#789DBC"
+                            CornerRadius="8"
+                            BorderBrush="Transparent"
+                            BorderThickness="0"
+                            Padding="10,5">
+                                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                    </Border>
+                                    <ControlTemplate.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter TargetName="border" Property="Background" Value="#A6C0D9"/>
+                                        </Trigger>
+                                    </ControlTemplate.Triggers>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </Button.Style>
+            </Button>
+
+            <Button Name="dashboardOffersSellerBtn"  FontFamily="Times New Roman Bold" FontSize="20" Width="210" Height="60" HorizontalAlignment="Center" VerticalAlignment="Center" Click="dashboardOffersSellerBtn_Click" Visibility="Visible">
+                Dashboard Oferte
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="OverridesDefaultStyle" Value="True"/>
+                        <Setter Property="Cursor" Value="Hand"/>
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="Button">
+                                    <Border x:Name="border"
+                            Background="#789DBC"
+                            CornerRadius="8"
+                            BorderBrush="Transparent"
+                            BorderThickness="0"
+                            Padding="10,5">
+                                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                    </Border>
+                                    <ControlTemplate.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter TargetName="border" Property="Background" Value="#A6C0D9"/>
+                                        </Trigger>
+                                    </ControlTemplate.Triggers>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </Button.Style>
+            </Button>
+
+            <Button Name="dashboardSalesSellerBtn" Margin="20" FontFamily="Times New Roman Bold" FontSize="20" Width="210" Height="60" HorizontalAlignment="Center" VerticalAlignment="Center" Click="dashboardSalesSellerBtn_Click" Visibility="Visible">
+                Dashboard Vanzari
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="OverridesDefaultStyle" Value="True"/>
+                        <Setter Property="Cursor" Value="Hand"/>
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="Button">
+                                    <Border x:Name="border"
+                 Background="#789DBC"
+                 CornerRadius="8"
+                 BorderBrush="Transparent"
+                 BorderThickness="0"
+                 Padding="10,5">
+                                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                    </Border>
+                                    <ControlTemplate.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter TargetName="border" Property="Background" Value="#A6C0D9"/>
+                                        </Trigger>
+                                    </ControlTemplate.Triggers>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </Button.Style>
+            </Button>
+
+            <Button Name="dashboardProductsBtn" Margin="20" FontFamily="Times New Roman Bold" FontSize="20" Width="210" Height="60" HorizontalAlignment="Center" VerticalAlignment="Center" Click="dashboardProductsBtn_Click" Visibility="Collapsed">
+                Dashboard Products
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="OverridesDefaultStyle" Value="True"/>
+                        <Setter Property="Cursor" Value="Hand"/>
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="Button">
+                                    <Border x:Name="border"
+                                        Background="#789DBC"
+                                        CornerRadius="8"
+                                        BorderBrush="Transparent"
+                                        BorderThickness="0"
+                                        Padding="10,5">
+                                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                    </Border>
+                                    <ControlTemplate.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter TargetName="border" Property="Background" Value="#A6C0D9"/>
+                                        </Trigger>
+                                    </ControlTemplate.Triggers>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </Button.Style>
+            </Button>
+
+            <Button Name="dashboardUsersBtn" FontFamily="Times New Roman Bold" FontSize="20" Width="210" Height="60" HorizontalAlignment="Center" VerticalAlignment="Center" Click="dashboardUsersBtn_Click" Visibility="Collapsed">
+                Dashboard Users
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="OverridesDefaultStyle" Value="True"/>
+                        <Setter Property="Cursor" Value="Hand"/>
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="Button">
+                                    <Border x:Name="border"
+                            Background="#789DBC"
+                            CornerRadius="8"
+                            BorderBrush="Transparent"
+                            BorderThickness="0"
+                            Padding="10,5">
+                                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                    </Border>
+                                    <ControlTemplate.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter TargetName="border" Property="Background" Value="#A6C0D9"/>
+                                        </Trigger>
+                                    </ControlTemplate.Triggers>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </Button.Style>
+            </Button>
+
+            <Button Name="dashboardSalesBtn" Margin="20" FontFamily="Times New Roman Bold" FontSize="20" Width="210" Height="60" HorizontalAlignment="Center" VerticalAlignment="Center" Click="dashboardSalesBtn_Click" Visibility="Collapsed">
+                Dashboard Sales
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="OverridesDefaultStyle" Value="True"/>
+                        <Setter Property="Cursor" Value="Hand"/>
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="Button">
+                                    <Border x:Name="border"
+                             Background="#789DBC"
+                             CornerRadius="8"
+                             BorderBrush="Transparent"
+                             BorderThickness="0"
+                             Padding="10,5">
+                                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                    </Border>
+                                    <ControlTemplate.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter TargetName="border" Property="Background" Value="#A6C0D9"/>
+                                        </Trigger>
+                                    </ControlTemplate.Triggers>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </Button.Style>
+            </Button>
+
+            <Button Name="dashboardOffersBtn"  FontFamily="Times New Roman Bold" FontSize="20" Width="210" Height="60" HorizontalAlignment="Center" VerticalAlignment="Center" Click="dashboardOffersBtn_Click" Visibility="Collapsed">
+                Dashboard Offers
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="OverridesDefaultStyle" Value="True"/>
+                        <Setter Property="Cursor" Value="Hand"/>
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="Button">
+                                    <Border x:Name="border"
+                             Background="#789DBC"
+                             CornerRadius="8"
+                             BorderBrush="Transparent"
+                             BorderThickness="0"
+                             Padding="10,5">
+                                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                    </Border>
+                                    <ControlTemplate.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter TargetName="border" Property="Background" Value="#A6C0D9"/>
+                                        </Trigger>
+                                    </ControlTemplate.Triggers>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </Button.Style>
+            </Button>
+
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -27,7 +28,7 @@ namespace ProiectIS
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            var exists = _db.Users.FirstOrDefault(u => u.Email == emailTxtBox.Text);
+            var exists = _db.Users.Include(x=>x.Products).Include(x=>x.Sales).Include(x=>x.Offers).FirstOrDefault(u => u.Email == emailTxtBox.Text);
 
             if (exists == null)
             {

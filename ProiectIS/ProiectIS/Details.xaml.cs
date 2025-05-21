@@ -21,12 +21,14 @@ namespace ProiectIS
     {
         AppDbContext _db = new AppDbContext();
         User user = new User();
+        User admin = null;
         public Details(User u)
         {
             InitializeComponent();
             emailTxt.Text = u.Email;
             statusTxt.Text = u.Status.ToString();
             user = u;
+           admin = _db.Users.FirstOrDefault(x => x.Email == "admin@email.com");
 
             switch (u.Status) {
                 case UserStatus.Seller:
@@ -60,7 +62,7 @@ namespace ProiectIS
 
         private void backBtn_Click(object sender, RoutedEventArgs e)
         {
-            Dashboard dashboard = new Dashboard();
+            Dashboard dashboard = new Dashboard(DashboardType.Users,admin);
             dashboard.Show();
             this.Close();
         }

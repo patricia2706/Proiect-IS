@@ -47,7 +47,7 @@ namespace ProiectIS
                 case UserStatus.Admin:
                     logInBtn.Visibility = Visibility.Collapsed;
                     signUpBtn.Visibility = Visibility.Collapsed;
-                    dashboardBtn.Visibility = Visibility.Visible;
+                    optionsBtn.Visibility = Visibility.Visible;
                     profileBtn.Visibility = Visibility.Visible;
                     break;
 
@@ -61,7 +61,7 @@ namespace ProiectIS
                     logInBtn.Visibility = Visibility.Collapsed;
                     signUpBtn.Visibility = Visibility.Collapsed;
                     profileBtn.Visibility = Visibility.Visible;
-                    sellBtn.Visibility = Visibility.Visible;
+                    optionsBtn.Visibility = Visibility.Visible;
                     break;
 
                 case UserStatus.PendingSeller:
@@ -81,25 +81,27 @@ namespace ProiectIS
             this.Close();
         }
 
-        private void dashboardBtn_Click(object sender, RoutedEventArgs e)
+        private void optionsBtn_Click(object sender, RoutedEventArgs e)
         {
-            Dashboard window = new Dashboard();
-            window.Show();
-            this.Close();
-        }
-
-        private void sellBtn_Click(object sender, RoutedEventArgs e)
-        {
-            AddProduct window = new AddProduct(user);
+            Options window = new Options(user);
             window.Show();
             this.Close();
         }
 
         private void viewBtn_Click(object sender, RoutedEventArgs e)
         {
-            Products window = new Products();
-            window.Show();
-            this.Close();
+            if (user == null)
+            {
+                Products window = new Products();
+                window.Show();
+                this.Close();
+            }
+            else
+            {
+                Products window = new Products(user);
+                window.Show();
+                this.Close();
+            }
         }
     }
 }

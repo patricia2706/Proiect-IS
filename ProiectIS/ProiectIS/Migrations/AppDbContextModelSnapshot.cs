@@ -106,6 +106,9 @@ namespace ProiectIS.Migrations
                     b.Property<DateTime>("SaleDate")
                         .HasColumnType("timestamp with time zone");
 
+                    b.Property<int>("Status")
+                        .HasColumnType("integer");
+
                     b.HasKey("Id");
 
                     b.HasIndex("BuyerId");
@@ -142,7 +145,7 @@ namespace ProiectIS.Migrations
             modelBuilder.Entity("ProiectIS.Offer", b =>
                 {
                     b.HasOne("ProiectIS.User", "Buyer")
-                        .WithMany()
+                        .WithMany("Offers")
                         .HasForeignKey("BuyerId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -190,6 +193,8 @@ namespace ProiectIS.Migrations
 
             modelBuilder.Entity("ProiectIS.User", b =>
                 {
+                    b.Navigation("Offers");
+
                     b.Navigation("Products");
 
                     b.Navigation("Sales");

@@ -5,8 +5,59 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProiectIS"
         mc:Ignorable="d"
-        Title="ProductDetails" Height="450" Width="800">
+        WindowStartupLocation="CenterScreen"
+        Title="ProductDetails" Height="500" Width="800">
     <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
         
+        <Grid Grid.Column="0">
+            
+            <StackPanel >
+                
+                <Button FontFamily="Times New Roman" Width="55" Height="20" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10" Name="backBtn" Click="backBtn_Click">
+                Inapoi
+                </Button>
+                
+                <TextBlock Name="nameTxt" Margin="50,10,10,10" FontSize="25" FontFamily="Times New Roman" FontWeight="Bold">name</TextBlock>
+                <GroupBox Header="Descriere" Margin="50,10,10,10" FontSize="16" FontFamily="Times New Roman">
+                    <TextBlock Name="descriptionTxt" Margin="5,5,5,5" TextWrapping="Wrap" FontFamily="Times New Roman">descriere</TextBlock>
+                </GroupBox>
+                
+                <GroupBox Header="Pret" Margin="50,10,10,10" FontSize="16" FontFamily="Times New Roman">
+                    <TextBlock Name="priceTxt" Margin="5,5,5,5" FontFamily="Times New Roman">pret</TextBlock>
+                </GroupBox>
+
+                <GroupBox Header="Negociabil?" Margin="50,10,10,10" FontSize="16" FontFamily="Times New Roman">
+                    <TextBlock Name="negotiableTxt" Margin="5,5,5,5" TextWrapping="Wrap" FontFamily="Times New Roman">da</TextBlock>
+                </GroupBox>
+
+                <GroupBox Header="Vanzator" Margin="50,10,10,10" FontSize="16" FontFamily="Times New Roman">
+                    <TextBlock Name="sellerEmailTxt" Margin="5,5,5,5" FontFamily="Times New Roman"></TextBlock>
+                </GroupBox>
+                
+            </StackPanel>
+        </Grid>
+
+        <Grid Grid.Column="1">
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Button Name="buyBtn" Margin="10" Height="40" Width="100" FontFamily="Times New Roman" FontSize="15" Visibility="Visible" Click="buyBtn_Click">
+                    Cumpara
+                </Button>
+
+                <Button Name="deleteBtn" Margin="10" Height="40" Width="100" FontFamily="Times New Roman" FontSize="15" Visibility="Visible">
+                    Sterge produs
+                </Button>
+
+                <GroupBox Name="offerGrpBox" Header="Scrie oferta" Visibility="Visible" Margin="10">
+                    <TextBox Name="offerTxt" Margin="10" FontSize="15" FontFamily="Times New Roman" Width="100"></TextBox>
+                </GroupBox>
+            </StackPanel>
+        </Grid>
+
     </Grid>
 </Window>

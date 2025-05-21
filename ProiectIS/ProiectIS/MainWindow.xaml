@@ -84,35 +84,7 @@
             </Grid>
 
             <Grid Grid.Column="1">
-                <Button Name="dashboardBtn" FontFamily="Times New Roman Bold" FontSize="20" Width="150" Height="60" HorizontalAlignment="Center" VerticalAlignment="Center" Click="dashboardBtn_Click" Visibility="Collapsed">
-                    Dashboard
-                    <Button.Style>
-                        <Style TargetType="Button">
-                            <Setter Property="OverridesDefaultStyle" Value="True"/>
-                            <Setter Property="Cursor" Value="Hand"/>
-                            <Setter Property="Template">
-                                <Setter.Value>
-                                    <ControlTemplate TargetType="Button">
-                                        <Border x:Name="border"
-                            Background="#789DBC"
-                            CornerRadius="8"
-                            BorderBrush="Transparent"
-                            BorderThickness="0"
-                            Padding="10,5">
-                                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                                        </Border>
-                                        <ControlTemplate.Triggers>
-                                            <Trigger Property="IsMouseOver" Value="True">
-                                                <Setter TargetName="border" Property="Background" Value="#A6C0D9"/>
-                                            </Trigger>
-                                        </ControlTemplate.Triggers>
-                                    </ControlTemplate>
-                                </Setter.Value>
-                            </Setter>
-                        </Style>
-                    </Button.Style>
-                </Button>
-                
+
                 <Button Name="signUpBtn" FontFamily="Times New Roman Bold" FontSize="20" Width="150" Height="60" HorizontalAlignment="Center" VerticalAlignment="Center" Click="signUpBtn_Click" Visibility="Visible">
                     Sign Up
                     <Button.Style>
@@ -141,8 +113,8 @@
                         </Style>
                     </Button.Style>
                 </Button>
-                <Button Name="sellBtn" FontFamily="Times New Roman Bold" FontSize="20" Width="150" Height="60" HorizontalAlignment="Center" VerticalAlignment="Center" Click="sellBtn_Click" Visibility="Collapsed">
-                    Adauga Produs
+                <Button Name="optionsBtn" FontFamily="Times New Roman Bold" FontSize="20" Width="150" Height="60" HorizontalAlignment="Center" VerticalAlignment="Center" Click="optionsBtn_Click" Visibility="Collapsed">
+                    Optiuni
                     <Button.Style>
                         <Style TargetType="Button">
                             <Setter Property="OverridesDefaultStyle" Value="True"/>
