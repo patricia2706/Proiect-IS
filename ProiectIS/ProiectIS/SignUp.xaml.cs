@@ -11,7 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-
+using ProiectIS.Helpers;
 namespace ProiectIS
 {
     /// <summary>
@@ -29,11 +29,11 @@ namespace ProiectIS
 
         private void signUpBtn_Click(object sender, RoutedEventArgs e)
         { 
-            if(!(emailTxtBox.Text.ToLower().EndsWith("@email.com") && emailTxtBox.Text.Contains("@") && emailTxtBox.Text.IndexOf("@") > 0))
+            if(!ValidationIS.emailValidation(emailTxtBox.Text))
             {
                 MessageBox.Show("Email incorect.", "Atentie", MessageBoxButton.OK, MessageBoxImage.Error);
                 return;
-            }
+            } // fa o functie care primeste un string si returneazaz tru sau false 
 
 
             bool exists = _db.Users.Any(u => u.Email==emailTxtBox.Text);

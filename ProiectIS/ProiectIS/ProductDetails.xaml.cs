@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProiectIS.Helpers;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -175,7 +176,7 @@ namespace ProiectIS
 
                 else
                 {
-                    if (float.Parse(offerTxt.Text) > prod.MinPrice)
+                    if (ValidationIS.priceValidation(offerTxt.Text, prod.MinPrice)) // ce e in if u asta sa faci ceva ce returneaza true sau false 
                     {
                         Offer offer = new Offer
                         {

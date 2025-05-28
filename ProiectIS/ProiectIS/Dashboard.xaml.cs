@@ -17,6 +17,7 @@ using Microsoft.EntityFrameworkCore.Query.Internal;
 using System.ComponentModel;
 using Microsoft.EntityFrameworkCore;
 using System.Diagnostics.Eventing.Reader;
+using ProiectIS.Helpers;
 
 namespace ProiectIS
 {
@@ -118,7 +119,7 @@ namespace ProiectIS
 
         private void SetupDashboard()
         {
-            if (u.Status == UserStatus.Admin)
+            if (ValidationIS.statusAdminValidation(u.Status)) // o functie care primeste parametru statusu userului si un status cu care vrei sa il verifici si returneaza tru sau  fals
             {
                 switch (dashboardType)
                 {
@@ -213,10 +214,11 @@ namespace ProiectIS
 
                 var offers = _db.Offers.Where(o => o.ProductId == offer.ProductId).ToList();
 
-                foreach (var item in offers)
-                {
-                    _db.Offers.Remove(item);
-                }
+                //foreach (var item in offers) // sa faci o functie care sa o apelezi si sa faca functia toata parcurgerea asta de sterge 
+                //{
+                //    _db.Offers.Remove(item);
+                //} // functia o sa primeasca lista 
+                ValidationIS.removeOffers(_db, offers);
 
                 _db.Sales.Add(sale);
                 _db.SaveChanges();
