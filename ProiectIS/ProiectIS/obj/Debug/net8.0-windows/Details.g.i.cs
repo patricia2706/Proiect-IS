@@ -117,7 +117,7 @@ namespace ProiectIS {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/ProiectIS;component/details.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ProiectIS;V1.0.0.0;component/details.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Details.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
