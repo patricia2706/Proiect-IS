@@ -26,7 +26,7 @@ namespace ProiectIS
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Button_Click(object sender, RoutedEventArgs e) // asta 
         {
             var exists = _db.Users.Include(x=>x.Products).Include(x=>x.Sales).Include(x=>x.Offers).FirstOrDefault(u => u.Email == emailTxtBox.Text);
 

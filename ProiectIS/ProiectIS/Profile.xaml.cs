@@ -21,7 +21,7 @@ namespace ProiectIS
     {
         AppDbContext _db = new AppDbContext();
         User user = new User();
-        public Profile(User u)
+        public Profile(User u) // asta
         {
             InitializeComponent();
             user = u;
@@ -60,7 +60,7 @@ namespace ProiectIS
             this.Close();
         }
 
-        private void pendingSellerBtn_Click(object sender, RoutedEventArgs e)
+        private void pendingSellerBtn_Click(object sender, RoutedEventArgs e) // asta
         {
             User? user1 = _db.Users.FirstOrDefault(u => u.Id == user.Id);
 

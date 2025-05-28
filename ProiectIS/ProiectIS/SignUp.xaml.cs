@@ -27,7 +27,7 @@ namespace ProiectIS
 
         
 
-        private void signUpBtn_Click(object sender, RoutedEventArgs e)
+        private void signUpBtn_Click(object sender, RoutedEventArgs e) // asta
         { 
             if(!ValidationIS.emailValidation(emailTxtBox.Text))
             {

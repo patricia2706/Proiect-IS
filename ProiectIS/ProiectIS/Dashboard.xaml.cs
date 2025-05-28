@@ -79,7 +79,7 @@ namespace ProiectIS
             this.Close();
         }
 
-        private void elementsDataGrid_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        private void elementsDataGrid_MouseDoubleClick(object sender, MouseButtonEventArgs e) // asta
         {
             if (dashboardType == DashboardType.Users)
             {
@@ -117,7 +117,7 @@ namespace ProiectIS
             }
         }
 
-        private void SetupDashboard()
+        private void SetupDashboard() // asta
         {
             if (ValidationIS.statusAdminValidation(u.Status)) // o functie care primeste parametru statusu userului si un status cu care vrei sa il verifici si returneaza tru sau  fals
             {
@@ -183,7 +183,7 @@ namespace ProiectIS
             cancelledRadioBtn.Visibility = Visibility.Collapsed;
         }
 
-        private void acceptBtn_Click(object sender, RoutedEventArgs e)
+        private void acceptBtn_Click(object sender, RoutedEventArgs e) // asta
         {
             if (dashboardType == DashboardType.SellerSales)
             {
@@ -230,7 +230,7 @@ namespace ProiectIS
 
         }
 
-        private void dismissBtn_Click(object sender, RoutedEventArgs e)
+        private void dismissBtn_Click(object sender, RoutedEventArgs e) // asta
         {
             if (dashboardType == DashboardType.SellerSales)
             {

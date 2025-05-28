@@ -156,7 +156,7 @@ namespace ProiectIS
             }
         }
 
-        private void buyBtn_Click(object sender, RoutedEventArgs e)
+        private void buyBtn_Click(object sender, RoutedEventArgs e) // diagrama de secventa 1
         {
             if (user != null) {
                 if (!prod.IsNegotiable) {

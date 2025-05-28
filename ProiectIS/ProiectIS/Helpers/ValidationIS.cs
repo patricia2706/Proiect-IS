@@ -20,6 +20,10 @@ namespace ProiectIS.Helpers
 
         public static bool priceValidation(string str, float minPrice)
         {
+            if(float.Parse(str) < 0 || minPrice < 0)
+            {
+                return false;
+            }
             if(float.Parse(str) > minPrice)
             {
                 return true;
@@ -28,17 +32,18 @@ namespace ProiectIS.Helpers
         }
 
         public static bool statusAdminValidation(UserStatus s) {
+
             if (s == UserStatus.Admin) {
                 return true;
             }
             return false;
         }
 
-        public static List<Product> listSalesApproved(AppDbContext _db ,List<Product> list){
+        public static List<Product> listSalesApproved(List<Product> allProducts,List<Sale> sales){
             var products = new List<Product>();
-            foreach (var item in list) 
+            foreach (var item in allProducts) 
             {
-                var found = _db.Sales.FirstOrDefault(x => x.ProductId == item.Id && x.Status.Equals(SaleStatus.Approved));
+                var found = sales.FirstOrDefault(x => x.ProductId == item.Id && x.Status.Equals(SaleStatus.Approved));
 
                 if (found is null)
                 {

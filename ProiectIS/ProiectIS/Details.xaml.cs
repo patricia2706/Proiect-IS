@@ -22,7 +22,7 @@ namespace ProiectIS
         AppDbContext _db = new AppDbContext();
         User user = new User();
         User admin = null;
-        public Details(User u)
+        public Details(User u) // asta
         {
             InitializeComponent();
             emailTxt.Text = u.Email;

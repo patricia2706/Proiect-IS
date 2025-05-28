@@ -35,19 +35,7 @@ namespace ProiectIS
             using (var _db = new AppDbContext())
             {
                 var list = _db.Products.Include(x => x.Seller).ToList(); // încarcă din DB
-                var products = ValidationIS.listSalesApproved(_db, list);
-
-                //foreach (var item in list) // faci o functie care returneaza o lista si primeste o lista ca parametru
-                //{
-                //    var found = _db.Sales.FirstOrDefault(x => x.ProductId == item.Id && x.Status.Equals(SaleStatus.Approved));
-
-                //    if (found is null)
-                //    {
-                //        products.Add(item);
-                //    }
-                //} // pana aici
-
-                ValidationIS.listSalesApproved(_db, products);
+                var products = ValidationIS.listSalesApproved(list,_db.Sales.ToList());
                 Prod = new ObservableCollection<Product>(products);
                 
             }
